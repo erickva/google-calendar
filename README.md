@@ -1,5 +1,7 @@
 # Google Calendar MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@erickva/google-calendar)](https://smithery.ai/server/@erickva/google-calendar)
+
 This MCP server allows Claude to interact with your Google Calendar, enabling capabilities like listing events, creating meetings, and finding free time slots.
 
 ## Prerequisites
@@ -179,7 +181,15 @@ code %AppData%\Claude\claude_desktop_config.json
 
 3. Save the file and restart Claude Desktop
 
-## Initial Project Setup
+### Installing via Smithery
+
+To install google-calendar for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@erickva/google-calendar):
+
+```bash
+npx -y @smithery/cli install @erickva/google-calendar --client claude
+```
+
+### Initial Project Setup
 
 1. Create a new directory for your project:
 ```bash
